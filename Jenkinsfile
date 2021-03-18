@@ -13,7 +13,7 @@ pipeline {
       stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("namsing1/helidon-quickstart-se:${env.BUILD_ID}")
+                    myapp = docker.build("avik86/ibm-helidon:${env.BUILD_ID}")
                 }
             }
         }
