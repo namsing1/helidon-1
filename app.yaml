@@ -25,7 +25,8 @@ spec:
   selector:
     app: helidon-quickstart-se
   ports:
-  - port: 8080
+  - nodePort: 31113
+    port: 8080
     targetPort: 8080
     name: http
 ---
@@ -46,7 +47,7 @@ spec:
     spec:
       containers:
       - name: helidon-quickstart-se
-        image: helidon-quickstart-se
+        image: namsing1/helidon:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
