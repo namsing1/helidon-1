@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: helidon-quickstart-se
-        image: namsing1/helidon-1:latest
+        image: namsing1/helidon-1:${env.BUILD_ID}
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
