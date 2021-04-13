@@ -27,7 +27,7 @@ spec:
   ports:
   - port: 9080
     targetPort: 9080
-    nodePort: 32555
+    nodePort: 32044
     name: http
 ---
 kind: Deployment
