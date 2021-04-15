@@ -1,4 +1,3 @@
-
 package io.helidon.examples.quickstart.se;
 
 import io.helidon.common.LogConfig;
