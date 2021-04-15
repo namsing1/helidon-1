@@ -1,23 +1,19 @@
-
 package io.helidon.examples.quickstart.se;
 
 import io.helidon.common.http.Http;
 import io.helidon.config.Config;
 import io.helidon.media.jsonp.JsonpSupport;
-
 import io.helidon.webclient.WebClient;
 import io.helidon.webserver.Routing;
 import io.helidon.webserver.ServerRequest;
 import io.helidon.webserver.ServerResponse;
 import io.helidon.webserver.Service;
-
 import javax.json.Json;
 import javax.json.JsonBuilderFactory;
 import javax.json.JsonException;
 import javax.json.JsonObject;
 import javax.json.JsonArray;
 import javax.json.JsonObjectBuilder;
-
 import java.util.Collections;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.logging.Level;
