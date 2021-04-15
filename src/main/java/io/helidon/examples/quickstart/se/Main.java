@@ -1,8 +1,6 @@
 
 package io.helidon.examples.quickstart.se;
 
-
-
 import io.helidon.common.LogConfig;
 import io.helidon.config.Config;
 import io.helidon.health.HealthSupport;
