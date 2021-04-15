@@ -1,6 +1,5 @@
 package io.helidon.examples.quickstart.se;
 
-
 import javax.json.bind.annotation.JsonbCreator;
 import javax.json.bind.annotation.JsonbProperty;
 
