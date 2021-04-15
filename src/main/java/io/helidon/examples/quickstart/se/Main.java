@@ -5,7 +5,6 @@ import io.helidon.config.Config;
 import io.helidon.health.HealthSupport;
 import io.helidon.health.checks.HealthChecks;
 import io.helidon.media.jsonp.JsonpSupport;
-//import io.helidon.media.jsonb.server.JsonBindingSupport;
 import io.helidon.media.jsonb.JsonbSupport;
 import io.helidon.metrics.MetricsSupport;
 import io.helidon.webserver.Routing;
