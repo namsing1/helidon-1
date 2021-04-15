@@ -49,7 +49,7 @@ spec:
     spec:
       containers:
       - name: helidon-quickstart-se
-        image: avik86/helidon-quickstart-se:latest
+        image: avik86/helidon-se:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
