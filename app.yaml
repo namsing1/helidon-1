@@ -47,7 +47,7 @@ spec:
         version: v1
     spec:
       containers:
-      - name: helidon-quickstart-se
+      - name: item-reservation
         image: namsing1/item-reservation:latest
         imagePullPolicy: Always
         ports:
